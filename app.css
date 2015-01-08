@@ -1,0 +1,56 @@
+.cellBlack {
+    background-color: black;
+
+}
+
+
+.cellWhite {
+    background-color: white;
+}
+
+.cellYellow {
+    background-color: yellow;
+}
+
+.header {
+    display:inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+
+.location_red {
+    display:inline-block;
+    width: 9%;
+    height: 100px;
+    background-color:#ff0000;
+    /*border-color: white;*/
+}
+
+
+.location_blue {
+    display:inline-block;
+    width: 9%;
+    height: 100px;
+    background-color:#0000ff;
+    /*border-color: white;*/
+}
+
+
+.location_red1 {
+    display:inline-block;
+    width: 9%;
+    height: 8%;
+    background-color:#ff0000;
+    /*border-color: white;*/
+}
+
+
+.location_blue1 {
+    display:inline-block;
+    width: 9%;
+    height: 8%;
+    background-color:#0000ff;
+    /*border-color: white;*/
+}

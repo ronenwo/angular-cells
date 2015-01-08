@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+
+<div ng-app="" ng-controller="ContactController">
+
+    <div class="header"></div>
+    <div ng-repeat="ce in cells" ng-class-odd="'location_red'" ng-class-even="'location_blue'">{{ce}}</div>
+
+</div>
+
+</body>
+</html>
