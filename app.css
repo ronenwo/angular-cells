@@ -22,7 +22,7 @@
 
 .location_red {
     display:inline-block;
-    width: 9%;
+    width: 10%;
     height: 100px;
     background-color:#ff0000;
     /*border-color: white;*/
@@ -31,7 +31,7 @@
 
 .location_blue {
     display:inline-block;
-    width: 9%;
+    width: 10%;
     height: 100px;
     background-color:#0000ff;
     /*border-color: white;*/

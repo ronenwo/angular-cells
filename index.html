@@ -9,10 +9,10 @@
 </head>
 <body>
 
-<div ng-app="" ng-controller="ContactController">
+<div ng-app="" ng-controller="LocationController">
 
     <div class="header"></div>
-    <div ng-repeat="ce in cells" ng-class-odd="'location_red'" ng-class-even="'location_blue'">{{ce}}</div>
+    <div ng-repeat="ce in cells" ng-class="getClass($index)">{{ce}}</div>
 
 </div>
 
