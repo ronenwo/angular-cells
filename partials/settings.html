@@ -1,0 +1,11 @@
+<div>
+
+    <p>Settings</p>
+
+    <div>
+        Number Of Columns:<select ng-model='selectedColumn'  ng-options='column for column in columns'></select>
+        Number Of Rows:<select ng-model='selectedRow'        ng-options='row for row in rows'></select>
+        <button ng-click="saveSettings()">Save</button>
+    </div>
+
+</div>
